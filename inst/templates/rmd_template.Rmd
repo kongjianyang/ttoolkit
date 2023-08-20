@@ -1,0 +1,38 @@
+---
+number_secions: TRUE
+---
+
+# library
+
+```{r}
+p_load(ttoolkit, 
+       tidyverse, 
+       
+       # working for excel
+       readxl, 
+       writexl,
+       
+       # for text
+       stringr,
+       
+       # for clean data
+       janitor,
+       
+       # copying and pasting data to and from R
+       datapasta,
+       
+       # summary data
+       skimr,
+       
+       # show conflict functions
+       conflicted)
+```
+
+
+
+
+```{r}
+# show all conflicted functions 
+conflict_scout()
+```
+
