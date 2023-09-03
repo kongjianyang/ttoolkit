@@ -3,7 +3,7 @@
 #' @param filename file name
 #' @param project project name
 #' @param author author
-#' @param dir folder
+#' @param dir used_folder
 #'
 #' @return file name
 #' @export

@@ -12,7 +12,7 @@
 options(bitmapType='cairo')
 
 # need to load first
-pacman::p_load(devtools, roxygen2, testthat, pacman, ttoolkit, tidyverse)
+# pacman::p_load(devtools, roxygen2, testthat, pacman, ttoolkit, tidyverse)
 
 # start with welcome
 .First <- function(){
@@ -30,9 +30,9 @@ pacman::p_load(devtools, roxygen2, testthat, pacman, ttoolkit, tidyverse)
   cat("\n Goodbye,", date(), "\n")
 }
 
-options(stringsAsFactors = FALSE) # 不自动将string转换为Factor
+# options(stringsAsFactors = FALSE) # 不自动将string转换为Factor
 # options(scipen = 999, digits = 6) # 不用科学计数法显示，保留6位有效数字，这个还是使用默认的吧，有时候还是挺有用的
-options(max.print = 99) # 限制最大打印行数/项，打印99999那么多行干嘛哟！
+# options(max.print = 99) # 限制最大打印行数/项，打印99999那么多行干嘛哟！
 # options("width" = 100) # 设置每行最大显示字符个数，当你屏幕比较大时或许有用
 options(continue = " ") # 换行输入时以空格开头，默认是+，当你选择粘贴时非常有用
 # options(warn = 2) # 据说提醒方式更友好，遇到了再看效果把，默认: options(warn=0, error=NULL)。更：千万别这样设，不痛不痒的warning 也会转成 error，wdnmd

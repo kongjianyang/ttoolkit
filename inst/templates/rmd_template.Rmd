@@ -5,6 +5,11 @@ number_secions: TRUE
 # library
 
 ```{r}
+# unload every packages
+# pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
+
+library(pacman)
+
 p_load(ttoolkit, 
        tidyverse, 
        
@@ -35,4 +40,46 @@ p_load(ttoolkit,
 # show all conflicted functions 
 conflict_scout()
 ```
+
+
+
+```{r}
+# prefer some functions
+conflicted::conflicts_prefer(dplyr::filter)
+
+conflicted::conflicts_prefer(dplyr::rename)
+
+conflicted::conflicts_prefer(dplyr::select)
+```
+
+
+# analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# debug
+
+
+
+
+
+
 

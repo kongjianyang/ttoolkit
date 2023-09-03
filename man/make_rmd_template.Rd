@@ -18,7 +18,7 @@ make_rmd_template(
 
 \item{author}{author}
 
-\item{dir}{folder}
+\item{dir}{used_folder}
 }
 \value{
 file name

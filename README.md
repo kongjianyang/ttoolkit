@@ -1,7 +1,7 @@
-Liang R Toolkit
+Liang's R Toolkit
 
 
-## 安装
+# 安装
 
 github 安装：
 
@@ -20,7 +20,7 @@ install.packages("/dir2file/ttoolkit-main", repos = NULL, type = "source")
 
 
 
-## 功能介绍
+# 功能介绍
 
 
 - make_rmd_template
@@ -66,6 +66,23 @@ test002 <-function(x) {
 
 ```
 
+
+- make_folders 
+
+自动创建一个R工作的文件夹
+
+
+
+- make_ppt_template 
+
+根据PPT模板，新建PPT
+
+
+
+# TODO 
+
+- 创建项目文件夹
+- 备份所有的R包和分析环境
 
 
 # 更新记录

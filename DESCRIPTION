@@ -19,6 +19,8 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     job,
-    BiocManager
+    BiocManager,
+    tidyverse,
+    writexl
 URL: https://github.com/kongjianyang
 BugReports: https://github.com/kongjianyang/ttoolkit/issues
