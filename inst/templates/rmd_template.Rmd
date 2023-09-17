@@ -10,7 +10,8 @@ number_secions: TRUE
 
 library(pacman)
 
-p_load(ttoolkit, 
+p_load(ttoolkit,
+       
        tidyverse, 
        
        # working for excel
@@ -21,16 +22,19 @@ p_load(ttoolkit,
        stringr,
        
        # for clean data
-       janitor,
+       janitor, # janitor::clean_names()
        
        # copying and pasting data to and from R
-       datapasta,
+       datapasta, # dpasta() or df_paste()
        
        # summary data
-       skimr,
+       skimr, # skim(iris)
        
        # show conflict functions
-       conflicted)
+       conflicted, 
+       
+       # for folder
+       fs)
 ```
 
 
